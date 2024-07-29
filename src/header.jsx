@@ -94,7 +94,7 @@ export default function Header(){
     }
     setLast(str);
     try {
-        const response = await fetch(`http://localhost:3000/sub?text=${str}`);
+        const response = await fetch(`${apiurl}/sub?text=${str}`);
         if (!response.ok) { 
             throw new Error(`http error: ${response.status}`);
         }
@@ -104,7 +104,7 @@ export default function Header(){
         console.log(title);
         const notes = text.filter((e) => e.type === 'fat');
         console.log(notes);
-        const assign = text.filter((e) => e.type === 'fat' && e.rank < 4);
+        const assign = text.filter((e) => e.type === 'ass');
         console.log(assign);
         setLoader(true);
         setTimeout(() => {
