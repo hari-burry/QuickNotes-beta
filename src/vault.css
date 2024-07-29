@@ -1,0 +1,124 @@
+
+.unit{
+    width:95vw;
+    min-width:50vw;
+    height:max-content;
+    border-radius: 20px;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+   
+    
+
+
+}
+
+.vaultbox{
+    margin-top: 50px;
+}
+
+
+
+.title{
+    margin-bottom:0px;
+    width:200px;
+    height:35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: light;
+   
+
+   
+
+}
+
+.vault{
+    background-color:white;
+    
+}
+
+.aligner{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    width:max-content;
+    height:670px;
+    padding:30px;
+    padding-left: 0px;
+
+    padding-top:5px;
+    border: 1px solid black;
+    
+    background-color: white;
+   
+    
+}
+.aligner:hover{
+
+}
+
+.subtitlediv{
+    display: inline-block;
+    width:max-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform:uppercase;
+  margin-top: 40px;
+   margin-bottom: 40px;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.psp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    display: inline;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.book path{
+    fill:white;
+}
+
+.book:hover{
+    background-color: black;
+}
+
+
+
+
+.vaultbox{
+    padding-left: 15px;
+}
+
+.loader{
+    height:300px;
+    width:300px;
+}
+
+.unit::-webkit-scrollbar{
+   background-color: white;
+
+}
+
+.unit::-webkit-scrollbar-thumb{
+   background-color: black;
+   border-radius: 20px;
+   border:2px solid white;
+}
+
+.unit::-webkit-scrollbar-track{
+    background-color: white;
+    border:2px solid red;
+}
+
+
+
