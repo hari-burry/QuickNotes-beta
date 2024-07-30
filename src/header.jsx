@@ -94,7 +94,7 @@ export default function Header(){
     }
     setLast(str);
     try {
-        const response = await fetch(`${apiurl}/sub?text=${str}`);
+        const response = await fetch(`https://quick-notes-beta-backend.vercel.app/sub?text=${str}`);
         if (!response.ok) { 
             throw new Error(`http error: ${response.status}`);
         }
