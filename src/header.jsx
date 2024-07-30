@@ -27,7 +27,7 @@ export default function Header(){
    const [sug,setSug]=useState(false);
 
   async function fetchmatch(name){
-   await fetch(`${apiurl}sugbox?text=${name}`)
+   await fetch(`${apiurl}/sugbox?text=${name}`)
      .then(response=>response.json())
      .then(async text=>{
       console.log(text);
