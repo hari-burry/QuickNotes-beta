@@ -21,7 +21,8 @@ function Vault(){
      ))
      }
      </div>
-      
+
+       {not &&
         <div>
           
          <h3 className='title'>NOTES</h3>
@@ -35,10 +36,12 @@ function Vault(){
 ))}
             </div>  
             </div>        
+
+       }
        
       
-
-       
+       {ass &&
+       <div>
        
          <h3 className='title'>ASSIGNMENTS</h3>
           <div className='unit'>
@@ -53,7 +56,9 @@ function Vault(){
             
             
             
-            </div>           
+            </div>    
+       </div>
+       }
       
    
        
