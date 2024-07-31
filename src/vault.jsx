@@ -22,7 +22,7 @@ function Vault(){
      }
      </div>
 
-       {not &&
+       {not.length>0 &&
         <div>
           
          <h3 className='title'>NOTES</h3>
@@ -40,7 +40,7 @@ function Vault(){
        }
        
       
-       {ass &&
+       {ass.length>0 &&
        <div>
        
          <h3 className='title'>ASSIGNMENTS</h3>
