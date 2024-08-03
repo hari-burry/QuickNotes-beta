@@ -1,4 +1,11 @@
-
+.loaddiv{
+    position:fixed;
+    height:max-content;
+    width:min-content;
+    padding:5px;
+    margin-top: 300px;
+    margin-left:45vw;
+}
 .unit{
     width:95vw;
     min-width:50vw;
