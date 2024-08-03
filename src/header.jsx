@@ -93,6 +93,10 @@ export default function Header(){
       return;
     }
     setLast(str);
+    setTitle([]);
+    setNot([]);
+    setAss([]);
+    setVault(false);
     try {
         const response = await fetch(`https://quick-notes-beta-backend.vercel.app/sub?text=${str}`);
         if (!response.ok) { 
