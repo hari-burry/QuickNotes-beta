@@ -71,15 +71,7 @@ function Vault(){
 
 }
 {loader&&
- <div style={{
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  height: 'max-content',
-  width:'min-content',
-  padding:'5px',
-  margin:'200px auto',
-}}>
+ <div className='loaddiv'>
   <Oval
   visible={true}
   height="80"
